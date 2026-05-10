@@ -1,0 +1,300 @@
+:root {
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #5568d3;
+  --ifm-color-primary-darker: #4755c4;
+  --ifm-color-primary-darkest: #3a44a1;
+  --ifm-color-primary-light: #7d90ee;
+  --ifm-color-primary-lighter: #8b9cf0;
+  --ifm-color-primary-lightest: #b0baf5;
+}
+
+/* Tablas con gradientes */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(102,126,234,0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+th {
+  padding: 14px 12px;
+  text-align: left;
+  font-weight: 600;
+  border: none;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(even) { background: #f8f9ff; }
+tr:hover { background: #f0f3ff; }
+
+/* Código */
+code {
+  background: #2d2d2d !important;
+  color: #f8f8f2 !important;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+}
+
+pre {
+  background: #1e1e1e !important;
+  border-left: 4px solid #667eea;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Diagramas Mermaid centrados */
+.mermaid {
+  text-align: center;
+  margin: 2rem 0;
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Checklists */
+input[type="checkbox"] {
+  accent-color: #667eea;
+  margin-right: 8px;
+}
+
+/* Títulos */
+h1 {
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 0.5rem;
+  color: #667eea;
+}
+
+h2 {
+  color: #764ba2;
+  border-left: 4px solid #764ba2;
+  padding-left: 1rem;
+}
+/* Hero buttons hover fix */
+.hero .button--outline.button--secondary {
+  color: white !important;
+  border-color: white !important;
+  transition: all 0.3s ease;
+}
+
+.hero .button--outline.button--secondary:hover {
+  background-color: white !important;
+  color: #667eea !important; /* Cambia el texto a color primario */
+  border-color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Botón principal - mejorar hover */
+.hero .button--secondary {
+  transition: all 0.3s ease;
+}
+
+.hero .button--secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/* Social Links Grid */
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+.social-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  padding: 0.8rem 1.2rem !important;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  font-weight: 500 !important;
+  opacity: 1 !important;
+}
+
+.social-link i,
+.social-link span {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.social-link:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3) !important;
+  filter: brightness(1.1) !important;
+}
+
+.social-link i {
+  font-size: 1.4rem !important;
+}
+
+/* Colores sólidos por red - SIN gradientes complejos */
+.social-link.twitter { 
+  background-color: #1da1f2 !important; 
+}
+
+.social-link.facebook { 
+  background-color: #1877f2 !important; 
+}
+
+.social-link.instagram { 
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) !important;
+}
+
+.social-link.linkedin { 
+  background-color: #0a66c2 !important; 
+}
+
+.social-link.github { 
+  background-color: #333333 !important; 
+}
+
+.social-link.youtube { 
+  background-color: #ff0000 !important; 
+}
+
+.social-link.tiktok { 
+  background-color: #000000 !important; 
+}
+
+/* Hover - solo aclarar ligeramente */
+.social-link.twitter:hover { background-color: #0d8bd9 !important; }
+.social-link.facebook:hover { background-color: #0d65d9 !important; }
+.social-link.linkedin:hover { background-color: #0852a3 !important; }
+.social-link.github:hover { background-color: #222222 !important; }
+.social-link.youtube:hover { background-color: #cc0000 !important; }
+.social-link.tiktok:hover { background-color: #222222 !important; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .social-links {
+    grid-template-columns: 1fr;
+  }
+}
+/* Mejoras para bloques de código bash/shell */
+code[class*="language-bash"],
+code[class*="language-shell"],
+pre[class*="language-bash"],
+pre[class*="language-shell"] {
+  font-family: 'Fira Code', 'Consolas', monospace !important;
+  font-size: 0.85rem !important;
+  line-height: 1.5 !important;
+}
+
+/* Resaltar comentarios en bash */
+.token.comment {
+  color: #6a9955 !important;
+  font-style: italic;
+}
+
+/* Resaltar strings en bash */
+.token.string {
+  color: #ce9178 !important;
+}
+
+/* Resaltar variables/parámetros en bash */
+.token.variable,
+.token.parameter {
+  color: #9cdcfe !important;
+}
+
+/* Resaltar comandos en bash */
+.token.function,
+.token.builtin {
+  color: #dcdcaa !important;
+}
+
+/* Mejorar salto de línea con backslash */
+pre code {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+}
+
+/* Borde suave para bloques de código */
+pre {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* ========================================
+   TABLAS - MODO OSCURO
+   ======================================== */
+
+/* Fondo oscuro para tablas en modo oscuro */
+html[data-theme='dark'] table {
+  border: 1px solid #333;
+  box-shadow: 0 2px 8px rgba(102,126,234,0.3);
+}
+
+/* Filas en modo oscuro */
+html[data-theme='dark'] tr:nth-child(even) {
+  background: #1e1e3f;
+}
+
+html[data-theme='dark'] tr:nth-child(odd) {
+  background: #16162a;
+}
+
+/* Hover en modo oscuro - MÁS OSCURO para mejor contraste */
+html[data-theme='dark'] tr:hover {
+  background: #2a2a5a !important;
+  transition: background 0.2s ease;
+}
+
+/* Texto en modo oscuro */
+html[data-theme='dark'] td,
+html[data-theme='dark'] th {
+  color: #e0e0e0;
+  border-bottom-color: #333;
+}
+
+/* Thead en modo oscuro */
+html[data-theme='dark'] thead {
+  background: linear-gradient(135deg, #5568d3 0%, #6a4a9a 100%);
+  border-bottom: 2px solid #764ba2;
+}
+
+html[data-theme='dark'] th {
+  color: white;
+}
+
+/* Hover en celdas individuales para mejor feedback */
+html[data-theme='dark'] td:hover {
+  background: rgba(102,126,234,0.2);
+}
+
+/* ========================================
+   TABLAS - MODO CLARO (mejorado)
+   ======================================== */
+
+/* Hover más visible en modo claro */
+html[data-theme='light'] tr:hover {
+  background: #e8ebff !important;
+  transition: background 0.2s ease;
+}
+
+html[data-theme='light'] tr:nth-child(even) {
+  background: #f8f9ff;
+}
+
+html[data-theme='light'] tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+/* Hover en celdas modo claro */
+html[data-theme='light'] td:hover {
+  background: rgba(102,126,234,0.1);
+}
