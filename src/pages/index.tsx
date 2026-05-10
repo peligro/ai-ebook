@@ -73,7 +73,7 @@ export default function Home(): React.ReactNode {
           <div className="col col--4 margin-bottom--lg">
             <div className="card" style={{ height: "100%" }}>
               <div className="card__body">
-                <h3>📚 15 Capítulos</h3>
+                <h3>📚 17 Capítulos</h3>
                 <p>
                   Desde fundamentos hasta producción: tokenización, embeddings,
                   RAG, Fine-Tuning, MLOps y más.
