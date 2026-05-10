@@ -58,7 +58,7 @@ export default function Home(): React.ReactNode {
               </Link>
               <Link
                 className="button button--outline button--secondary button--lg hero-button-outline"
-                to="/capitulos/primeros-pasos-con-la-inteligencia-artificial"
+                to="/capitulos/primeros%20pasos-con-ia"
                 title="Ver capítulo 1"
               >
                 📖 Ver Capítulo 1
