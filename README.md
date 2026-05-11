@@ -166,3 +166,67 @@ Curso práctico en Udemy con proyectos reales en:
 - Seguridad, escalabilidad y optimización
 
 🎁 **Descuento para lectores del ebook:** Escríbeme a yo@cesarcancino.com para obtener un cupón de descuento.
+
+## 👨‍💻 Autor
+
+**César Cancino**
+
+- 💼 Desarrollador y Arquitecto de Software especializado en IA
+- 🎓 Instructor en Udemy (+10k estudiantes)
+- 🇨🇱 Santiago, Chile
+- 🌐 [cesarcancino.com](https://cesarcancino.com)
+
+### Sígueme
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/cesar_cz)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/cesar.cz/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/cesar_webmaster/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/césar-hans-cancino-zapata-33487118/)
+[![GitHub](https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/peligro)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCgemxLPb_ddJLA1amDCToBA)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@cesar_webmaster)
+
+📧 **Contacto:** [yo@cesarcancino.com](mailto:yo@cesarcancino.com)
+
+---
+
+## 📄 Licencia
+
+Este trabajo está licenciado bajo [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Eres libre de:**
+- ✅ Compartir — copiar y redistribuir el material en cualquier medio o formato
+- ✅ Adaptar — remezclar, transformar y construir a partir del material
+
+**Bajo los siguientes términos:**
+- 🔹 **Atribución** — Debes dar crédito de manera adecuada
+- 🔹 **NoComercial** — No puedes hacer uso del material con fines comerciales
+- 🔹 **CompartirIgual** — Si remezclas, transformas o creas a partir del material, debes distribuir tus contribuciones bajo la misma licencia
+
+---
+
+## 🙏 Agradecimientos Especiales
+
+- 💖 **A Yelimar** - Mi esposa, mi mayor apoyo e inspiración
+- 🤖 **A Qwen3.5 (Alibaba Cloud)** - Por la asistencia en la estructuración y contenido técnico
+- 🤖 **A Gemini (Google)** - Por complementar y expandir capítulos adicionales
+- 🌍 **A la comunidad Open-Source** - Por las herramientas que hicieron posible este proyecto
+
+---
+
+## 📈 Stats del Proyecto
+
+[![GitHub contributors](https://img.shields.io/github/contributors/peligro/ai-ebook?style=for-the-badge)](https://github.com/peligro/ai-ebook/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/peligro/ai-ebook?style=for-the-badge&color=blue)](https://github.com/peligro/ai-ebook/commits/main)
+[![Issues](https://img.shields.io/github/issues/peligro/ai-ebook?style=for-the-badge&color=orange)](https://github.com/peligro/ai-ebook/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/peligro/ai-ebook/pulls)
+
+---
+
+<div align="center">
+
+**Hecho con ❤️ y mucha ☕ por César Cancino**
+
+⭐ **Si te gusta este proyecto, ¡dale una estrella!** ⭐
+
+</div>
