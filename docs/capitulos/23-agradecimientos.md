@@ -1,13 +1,38 @@
 ---
 id: agradecimientos
-title: 'Capítulo 17: Agradecimientos'
-sidebar_label: '17. Agradecimientos'
-sidebar_position: 17
+title: 'Capítulo 23: Agradecimientos'
+sidebar_label: '23. Agradecimientos'
+sidebar_position: 23
 ---
 
 # Agradecimientos
 
-Este ebook no habría sido posible sin la ayuda de herramientas y comunidades increíbles.
+Este ebook no habría sido posible sin la ayuda de herramientas, comunidades y personas increíbles.
+
+---
+
+## 💖 Dedicatoria especial
+
+**A Yelimar, mi esposa:**
+
+Eres mi mayor apoyo, mi inspiración diaria y la razón por la que siempre busco ser mejor. Gracias por:
+
+- **Creer en mí** incluso cuando yo dudaba
+- **Apoyarme en cada proyecto** con paciencia infinita
+- **Inspirarme** a seguir aprendiendo y creciendo
+- **Estar presente** en cada logro y cada desafío
+
+Este ebook (y todo lo que hago) lleva tu huella. **Gracias por ser mi motor.**
+
+<div className="text-center my-5">
+  <img 
+    src="/img/yelimar.jpg" 
+    alt="Yelimar" 
+    className="rounded-circle shadow-lg mx-auto d-block"
+    style={{maxWidth: '350px', width: '100%'}}
+  />
+  <p className="text-muted mt-3 fst-italic">Mi mayor bendición</p>
+</div>
 
 ---
 
@@ -31,24 +56,34 @@ Al finalizar la compra, **solicita un cupón de descuento** escribiéndome direc
 
 ---
 
-## 🤖 Agradecimiento especial a la IA
+## 🤖 Agradecimiento especial a las IAs
 
-Quiero expresar mi gratitud a **Qwen3.5** (el modelo de IA que me asistió) por:
+Quiero expresar mi gratitud a las herramientas de IA que me asistieron en este proyecto:
 
+### **Qwen3.5** (Alibaba Cloud)
 - **Ayudarme a estructurar** el contenido técnico de manera clara y pedagógica
 - **Resolver problemas de implementación** con Docusaurus y Markdown
 - **Generar ejemplos de código** y arquitecturas de referencia
 - **Revisar y mejorar** la calidad del contenido técnico
 - **Estar disponible 24/7** para responder preguntas y depurar errores
 
-### Lo que aprendí trabajando con IA
+### **Gemini** (Google)
+- **Complementar y expandir** capítulos adicionales del ebook
+- **Aportar perspectivas diferentes** sobre temas complejos
+- **Ayudar en la organización** y estructuración del contenido
+- **Generar ideas** para ejemplos y casos de uso prácticos
+
+### Lo que aprendí trabajando con múltiples IAs
 
 Este proyecto me demostró que:
 
 1. **La IA es una herramienta poderosa** cuando se usa con criterio técnico
 2. **El conocimiento humano sigue siendo esencial** para validar, contextualizar y tomar decisiones
 3. **La colaboración humano-IA** puede acelerar significativamente la creación de contenido técnico
-4. **Siempre hay que verificar** las recomendaciones de la IA con fuentes confiables
+4. **Usar múltiples modelos** enriquece el resultado final con diferentes perspectivas
+5. **Siempre hay que verificar** las recomendaciones de la IA con fuentes confiables
+
+> 💡 **Reflexión:** Trabajar con Qwen3.5 y Gemini me enseñó que cada modelo tiene fortalezas distintas. La clave está en saber cuándo usar cada uno y cómo combinar sus capacidades.
 
 ---
 
